@@ -1,0 +1,11 @@
+{
+    "folders": [
+        {
+            "path": "src"
+        },
+    ],
+    "settings": {
+        "window.zoomLevel": 1,
+        "files.autoSave": "afterDelay"
+    }
+}

@@ -1,0 +1,14 @@
+.trans_btn, .imageCover div {
+  pointer-events: default;
+  transition: 300ms ease-in; }
+  .trans_btn.big, .imageCover div.big {
+    width: 1.2em; }
+  .trans_btn.default, .imageCover div.default {
+    width: 1em; }
+  .trans_btn.small, .imageCover div.small {
+    width: 0.8em; }
+
+.imageCover {
+  pointer-events: none;
+  user-select: none;
+  position: absolute; }

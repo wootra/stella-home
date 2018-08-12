@@ -1,0 +1,60 @@
+.expand {
+	animation: spread-out 0.3s ease-in forwards;
+}
+.ignore-event{
+	pointer-events: none;
+}
+
+i, span {
+	pointer-events: inherit;
+}
+
+.fixed{
+	position:absolute;
+	pointer-events: inherit;
+	
+}
+.full-star{
+	display:block;
+	animation: spread-out 0.3s ease-in forwards;
+}
+.half-star{
+	display:block;
+	animation: spread-out 0.3s ease-in forwards;
+}
+
+.full-star-stop{
+	display:block;
+}
+.half-star-stop{
+	display:block;
+}
+
+.empty-star{
+	visibility: hidden;
+}
+
+
+.star-color-enable{
+  color: #ebc654;
+}
+
+.star-color-disable{
+  color: #b7b188;
+}
+
+
+@keyframes spread-out {
+	0% {
+		opacity: 0;
+		transform: scale(1.5);
+  }
+	80% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+

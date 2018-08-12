@@ -1,0 +1,21 @@
+.trans_btn{
+  pointer-events: default;
+  transition:300ms ease-in;
+  &.big{
+    width:1.2em;
+  }
+  &.default{
+    width:1em;
+  }
+  &.small{
+    width:0.8em;
+  }
+}
+.imageCover{
+  pointer-events: none;
+  user-select: none;
+  position: absolute;
+  div{
+    @extend .trans_btn;
+  }
+}

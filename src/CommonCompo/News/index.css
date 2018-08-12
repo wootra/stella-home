@@ -1,0 +1,16 @@
+.trans_btn, .newsStyle .trans_btn {
+  pointer-events: default;
+  transition: 300ms ease-in; }
+  .trans_btn.big {
+    width: 1.2em; }
+  .trans_btn.default {
+    width: 1em; }
+  .trans_btn.small {
+    width: 0.8em; }
+
+.newsStyle {
+  width: 100%;
+  height: 100%;
+  background-color: #ebe8e0;
+  margin: 0.1em 0.1em 0.1em 0.1em;
+  padding: 0.05em 0.05em 0.05em 0.05em; }

@@ -1,0 +1,42 @@
+.slide-down {
+	visibility: visible;
+	animation: slide-down 0.3s ease-in forwards;
+}
+
+.slide-up {
+	animation: slide-up 0.3s ease-in forwards;
+}
+
+.menu-visible{
+	display: block;
+	position: relative;
+	clip-path: inset(0% 0%);
+	z-index: 1000 !important;
+}
+.menu-hidden{
+	display: none;
+}
+.menuList {
+	cursor: pointer;
+}
+
+@keyframes slide-down {
+	0% {
+		opacity: 0;
+		transform: translateY(-100%);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0%);
+	}
+}
+@keyframes slide-up {
+	0% {
+		opacity: 1;
+		transform: translateY(0%);
+	}
+	100% {
+		opacity: 0;
+		transform: translateY(-100%);
+	}
+}

@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "jsx": "react",
+    "baseUrl": "./src",
+    "paths": {
+      "components/*": [
+        "${baseUrl}/components/*"
+      ],
+      "assets/*": [
+        "${baseUrl}/assets/*"
+      ],
+      "aws_api/*": [
+        "${baseUrl}/aws_api/*"
+      ],
+      "actions/*": [
+        "${baseUrl}/actions/*"
+      ],
+      "reducers/*": [
+        "${baseUrl}/reducers/*"
+      ]
+    },
+    "allowSyntheticDefaultImports": true
+  }
+}
